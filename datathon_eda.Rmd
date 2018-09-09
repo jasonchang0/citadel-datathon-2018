@@ -1,0 +1,191 @@
+---
+title: "Datathon EDA"
+author: "Jiying Zou"
+date: "9/8/2018"
+output: pdf_document
+---
+
+```{r}
+library(dplyr)
+library(tidyr)
+library(zoo)
+library(stringr)
+library(ggplot2)
+
+setwd("~/Documents/datathon2018")
+```
+
+##NY House Median Rent Price Trends 
+In Manhattan
+
+Groal: graph average median rent prices ($ per sq ft) over time for different types of housing
+To motivate the fact that rent prices are rising over time 
+
+```{r}
+#zip codes for manhattan
+manzip <- c(10026, 10027, 10030, 10037, 10039, 10001,
+           10011, 10018, 10019, 10020, 10036,10029,
+           10035, 10010, 10016, 10017, 10022,
+           10012, 10013, 10014,
+           10004, 10005, 10006, 10007, 10038, 10280,
+           10002, 10003, 10009,
+           10021, 10028, 10044, 10065, 10075, 10128,
+           10023, 10024, 10025,
+           10031, 10032, 10033, 10034, 10040)
+```
+
+```{r}
+#Load and filter data for different housing types
+medrent_allhomes <- read.csv("~/Documents/datathon2018/med_rental_price_allhomes.csv")
+medrent_allhomes <- medrent_allhomes %>%
+  filter(RegionName %in% manzip)
+
+medrent_1bed <- read.csv("~/Documents/datathon2018/med_rental_price_1bed.csv")
+medrent_1bed <- medrent_1bed %>%
+  filter(RegionName %in% manzip)
+
+medrent_2bed <- read.csv("~/Documents/datathon2018/med_rental_price_2bed.csv")
+medrent_2bed <- medrent_2bed %>%
+  filter(RegionName %in% manzip)
+
+medrent_3bed <- read.csv("~/Documents/datathon2018/med_rental_price_3bed.csv")
+medrent_3bed <- medrent_3bed %>%
+  filter(RegionName %in% manzip)
+
+medrent_4bed <- read.csv("~/Documents/datathon2018/med_rental_price_4bed.csv")
+medrent_4bed <- medrent_4bed %>%
+  filter(RegionName %in% manzip) #no data
+
+medrent_5bed <- read.csv("~/Documents/datathon2018/med_rental_price_5bed.csv")
+medrent_5bed <- medrent_5bed %>%
+  filter(RegionName %in% manzip) #no data
+
+medrent_condocoop <- read.csv("~/Documents/datathon2018/med_rental_price_condo_coop.csv")
+medrent_condocoop <- medrent_condocoop %>%
+  filter(RegionName %in% manzip)
+
+medrent_duplextriplex <- read.csv("~/Documents/datathon2018/med_rental_price_duplextriplex.csv")
+medrent_duplextriplex <- medrent_duplextriplex %>%
+  filter(RegionName %in% manzip)
+
+medrent_mfr5plus <- read.csv("~/Documents/datathon2018/med_rental_price_mfr5plus.csv")
+medrent_mfr5plus <- medrent_mfr5plus %>%
+  filter(RegionName %in% manzip)
+
+medrent_sfr <- read.csv("~/Documents/datathon2018/med_rental_price_sfr.csv")
+medrent_sfr <- medrent_sfr %>%
+  filter(RegionName %in% manzip) #low data
+
+medrent_studio <- read.csv("~/Documents/datathon2018/med_rental_price_studio.csv")
+medrent_studio <- medrent_studio %>%
+  filter(RegionName %in% manzip)
+```
+
+```{r}
+#Average median rent price per sq ft for each type of housing, over the years
+avg_1bed <- medrent_1bed %>%
+  gather(key = time, value = rent, 7:108) %>%
+  group_by(time) %>%
+  summarise(type = "1 Bed", avg_rent = mean(rent))
+
+#apply(medrent_1bed[,7:108], 2, mean) a faster way
+
+avg_2bed <- medrent_2bed %>%
+  gather(key = time, value = rent, 7:108) %>%
+  group_by(time) %>%
+  summarise(type = "2 Bed", avg_rent = mean(rent))
+
+avg_3bed <- medrent_3bed %>%
+  gather(key = time, value = rent, 7:107) %>%
+  group_by(time) %>%
+  summarise(type = "3 Bed", avg_rent = mean(rent))
+
+avg_allhomes <- medrent_allhomes %>%
+  gather(key = time, value = rent, 7:108) %>%
+  group_by(time) %>%
+  summarise(type = "Overall", avg_rent = mean(rent))
+
+avg_condocoop <- medrent_condocoop %>%
+  gather(key = time, value = rent, 7:108) %>%
+  group_by(time) %>%
+  summarise(type = "Condo/Co-op", avg_rent = mean(rent))
+
+avg_duplextriplex <- medrent_duplextriplex %>%
+  gather(key = time, value = rent, 7:96) %>%
+  group_by(time) %>%
+  summarise(type = "Duplex/Triplex", avg_rent = mean(rent))
+
+avg_mfr5plus <- medrent_mfr5plus %>%
+  gather(key = time, value = rent, 7:108) %>%
+  group_by(time) %>%
+  summarise(type = "Multi-Family Residence", avg_rent = mean(rent))
+
+avg_sfr <- medrent_sfr %>%
+  gather(key = time, value = rent, 7:108) %>%
+  group_by(time) %>%
+  summarise(type = "Single-Family Residence", avg_rent = mean(rent))
+
+avg_studio <- medrent_studio %>%
+  gather(key = time, value = rent, 7:108) %>%
+  group_by(time) %>%
+  summarise(type = "Studio", avg_rent = mean(rent))
+
+#Combine all dataframes
+combined_df <- rbind(avg_1bed, avg_2bed, avg_3bed, avg_condocoop, avg_duplextriplex, avg_mfr5plus, avg_sfr, avg_studio, avg_allhomes)
+
+##format the time col for plotting
+combined_df$time <- gsub('X', '', combined_df$time)
+combined_df$time <- gsub('\\.', '-', combined_df$time)
+#combined_df$time <- as.character(as.yearmon(combined_df$time, "%Y-%m"))
+#View(as.Date(combined_df$time, "%b %Y"))
+
+write.csv(combined_df, file = "avgmedrent_bytype.csv")
+```
+
+##Food Inspections Exploration
+
+Q: What types of violations are there? What should we use to quantify violations?
+
+```{r}
+food <- read.csv("food_establishment_inspections.csv")
+
+food$address <- as.character(food$address)
+
+food$city <- gsub(', ', '', str_extract(food$address, ",.*"))
+
+View(food[grepl('CHELSEA', food$city),])
+
+View(food[which(food$latitude < 40.873866 & food$latitude > 40.699765 & food$longitude > -74.042363 & food$longitude < -73.909763),])
+
+###THERE IS NO DATA AGHHHHHH
+
+
+food$inspection_date <- as.Date(food$inspection_date, "%d/%m/%y")
+food$inspection_year <- str_extract(food$inspection_date, "[^-]*-") #extract year
+food$inspection_year <- gsub("-", "", food$inspection_year)
+
+county_numcv <- food %>%
+  group_by(county, inspection_year) %>%
+  summarise(num_critical_violations = sum(num_critical), num_inspections = n())
+county_numcv <- county_numcv[which(!is.na(county_numcv$num_critical_violations)),]
+  
+propcv <- county_numcv %>%
+  filter(inspection_year >= 2009 & inspection_year <= 2017) %>%
+  group_by(inspection_year) %>%
+  summarise(avg_critical_violations_percounty = mean(num_critical_violations/num_inspections), num_counties_sampled = n())
+
+propcv$inspection_year <- as.numeric(propcv$inspection_year)
+#Graph results
+propcv %>%
+  ggplot(aes(x = as.factor(inspection_year), y = avg_critical_violations_percounty)) +
+  geom_point() +
+  geom_line() +
+  labs(x = "Year", y = "Avg Proportion of Critical Violations (per county)", title = "NY Critical Violations Increasing Over Time") + theme(plot.title = element_text(hjust = 0.5)) +#+ scale_x_discrete(breaks = scales::pretty_breaks(n=8))
+  scale_x_discrete("Year", labels = c(2009,2010,2011,2012,2013,2014,2015,2016,2017,2018))
+```
+
+
+
+```{r}
+health <- read.csv("community_health.csv")
+```

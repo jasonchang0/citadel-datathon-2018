@@ -1,0 +1,906 @@
+"","time","type","avg_rent"
+"1","2010-02","1 Bed",NA
+"2","2010-03","1 Bed",NA
+"3","2010-04","1 Bed",NA
+"4","2010-05","1 Bed",NA
+"5","2010-06","1 Bed",NA
+"6","2010-07","1 Bed",NA
+"7","2010-08","1 Bed",NA
+"8","2010-09","1 Bed",NA
+"9","2010-10","1 Bed",NA
+"10","2010-11","1 Bed",NA
+"11","2010-12","1 Bed",NA
+"12","2011-01","1 Bed",NA
+"13","2011-02","1 Bed",NA
+"14","2011-03","1 Bed",NA
+"15","2011-04","1 Bed",NA
+"16","2011-05","1 Bed",NA
+"17","2011-06","1 Bed",NA
+"18","2011-07","1 Bed",NA
+"19","2011-08","1 Bed",NA
+"20","2011-09","1 Bed",NA
+"21","2011-10","1 Bed",NA
+"22","2011-11","1 Bed",NA
+"23","2011-12","1 Bed",NA
+"24","2012-01","1 Bed",NA
+"25","2012-02","1 Bed",NA
+"26","2012-03","1 Bed",NA
+"27","2012-04","1 Bed",NA
+"28","2012-05","1 Bed",NA
+"29","2012-06","1 Bed",NA
+"30","2012-07","1 Bed",NA
+"31","2012-08","1 Bed",NA
+"32","2012-09","1 Bed",NA
+"33","2012-10","1 Bed",NA
+"34","2012-11","1 Bed",NA
+"35","2012-12","1 Bed",NA
+"36","2013-01","1 Bed",NA
+"37","2013-02","1 Bed",NA
+"38","2013-03","1 Bed",NA
+"39","2013-04","1 Bed",NA
+"40","2013-05","1 Bed",NA
+"41","2013-06","1 Bed",NA
+"42","2013-07","1 Bed",NA
+"43","2013-08","1 Bed",NA
+"44","2013-09","1 Bed",NA
+"45","2013-10","1 Bed",NA
+"46","2013-11","1 Bed",NA
+"47","2013-12","1 Bed",NA
+"48","2014-01","1 Bed",NA
+"49","2014-02","1 Bed",NA
+"50","2014-03","1 Bed",NA
+"51","2014-04","1 Bed",NA
+"52","2014-05","1 Bed",NA
+"53","2014-06","1 Bed",NA
+"54","2014-07","1 Bed",NA
+"55","2014-08","1 Bed",NA
+"56","2014-09","1 Bed",NA
+"57","2014-10","1 Bed",NA
+"58","2014-11","1 Bed",NA
+"59","2014-12","1 Bed",NA
+"60","2015-01","1 Bed",NA
+"61","2015-02","1 Bed",NA
+"62","2015-03","1 Bed",NA
+"63","2015-04","1 Bed",NA
+"64","2015-05","1 Bed",NA
+"65","2015-06","1 Bed",NA
+"66","2015-07","1 Bed",NA
+"67","2015-08","1 Bed",NA
+"68","2015-09","1 Bed",NA
+"69","2015-10","1 Bed",NA
+"70","2015-11","1 Bed",NA
+"71","2015-12","1 Bed",NA
+"72","2016-01","1 Bed",NA
+"73","2016-02","1 Bed",NA
+"74","2016-03","1 Bed",NA
+"75","2016-04","1 Bed",NA
+"76","2016-05","1 Bed",NA
+"77","2016-06","1 Bed",NA
+"78","2016-07","1 Bed",NA
+"79","2016-08","1 Bed",NA
+"80","2016-09","1 Bed",NA
+"81","2016-10","1 Bed",NA
+"82","2016-11","1 Bed",NA
+"83","2016-12","1 Bed",4.94446431406841
+"84","2017-01","1 Bed",4.98439413218365
+"85","2017-02","1 Bed",5.01762839017865
+"86","2017-03","1 Bed",5.04182043865012
+"87","2017-04","1 Bed",5.0319871689042
+"88","2017-05","1 Bed",5.05927047681849
+"89","2017-06","1 Bed",5.09495419918276
+"90","2017-07","1 Bed",5.09433024130659
+"91","2017-08","1 Bed",5.08001973273417
+"92","2017-09","1 Bed",5.03167897791552
+"93","2017-10","1 Bed",5.00479774083538
+"94","2017-11","1 Bed",5.05068736255055
+"95","2017-12","1 Bed",5.02153221903448
+"96","2018-01","1 Bed",4.99148836492486
+"97","2018-02","1 Bed",5.02185822675778
+"98","2018-03","1 Bed",5.05826774454902
+"99","2018-04","1 Bed",5.09774301808508
+"100","2018-05","1 Bed",5.13784050891819
+"101","2018-06","1 Bed",5.09839033622428
+"102","2018-07","1 Bed",5.09564838629469
+"103","2010-02","2 Bed",NA
+"104","2010-03","2 Bed",NA
+"105","2010-04","2 Bed",NA
+"106","2010-05","2 Bed",NA
+"107","2010-06","2 Bed",NA
+"108","2010-07","2 Bed",NA
+"109","2010-08","2 Bed",NA
+"110","2010-09","2 Bed",NA
+"111","2010-10","2 Bed",NA
+"112","2010-11","2 Bed",NA
+"113","2010-12","2 Bed",NA
+"114","2011-01","2 Bed",NA
+"115","2011-02","2 Bed",NA
+"116","2011-03","2 Bed",NA
+"117","2011-04","2 Bed",NA
+"118","2011-05","2 Bed",NA
+"119","2011-06","2 Bed",NA
+"120","2011-07","2 Bed",NA
+"121","2011-08","2 Bed",NA
+"122","2011-09","2 Bed",NA
+"123","2011-10","2 Bed",NA
+"124","2011-11","2 Bed",NA
+"125","2011-12","2 Bed",NA
+"126","2012-01","2 Bed",NA
+"127","2012-02","2 Bed",NA
+"128","2012-03","2 Bed",NA
+"129","2012-04","2 Bed",NA
+"130","2012-05","2 Bed",NA
+"131","2012-06","2 Bed",NA
+"132","2012-07","2 Bed",NA
+"133","2012-08","2 Bed",NA
+"134","2012-09","2 Bed",NA
+"135","2012-10","2 Bed",NA
+"136","2012-11","2 Bed",NA
+"137","2012-12","2 Bed",NA
+"138","2013-01","2 Bed",NA
+"139","2013-02","2 Bed",NA
+"140","2013-03","2 Bed",NA
+"141","2013-04","2 Bed",NA
+"142","2013-05","2 Bed",NA
+"143","2013-06","2 Bed",NA
+"144","2013-07","2 Bed",NA
+"145","2013-08","2 Bed",NA
+"146","2013-09","2 Bed",NA
+"147","2013-10","2 Bed",NA
+"148","2013-11","2 Bed",NA
+"149","2013-12","2 Bed",NA
+"150","2014-01","2 Bed",NA
+"151","2014-02","2 Bed",NA
+"152","2014-03","2 Bed",NA
+"153","2014-04","2 Bed",NA
+"154","2014-05","2 Bed",NA
+"155","2014-06","2 Bed",NA
+"156","2014-07","2 Bed",NA
+"157","2014-08","2 Bed",NA
+"158","2014-09","2 Bed",NA
+"159","2014-10","2 Bed",NA
+"160","2014-11","2 Bed",NA
+"161","2014-12","2 Bed",NA
+"162","2015-01","2 Bed",NA
+"163","2015-02","2 Bed",NA
+"164","2015-03","2 Bed",NA
+"165","2015-04","2 Bed",NA
+"166","2015-05","2 Bed",NA
+"167","2015-06","2 Bed",NA
+"168","2015-07","2 Bed",NA
+"169","2015-08","2 Bed",NA
+"170","2015-09","2 Bed",NA
+"171","2015-10","2 Bed",NA
+"172","2015-11","2 Bed",NA
+"173","2015-12","2 Bed",NA
+"174","2016-01","2 Bed",NA
+"175","2016-02","2 Bed",NA
+"176","2016-03","2 Bed",NA
+"177","2016-04","2 Bed",NA
+"178","2016-05","2 Bed",NA
+"179","2016-06","2 Bed",NA
+"180","2016-07","2 Bed",NA
+"181","2016-08","2 Bed",NA
+"182","2016-09","2 Bed",NA
+"183","2016-10","2 Bed",NA
+"184","2016-11","2 Bed",NA
+"185","2016-12","2 Bed",NA
+"186","2017-01","2 Bed",4.8457539358164
+"187","2017-02","2 Bed",4.86880665503881
+"188","2017-03","2 Bed",4.86174546798012
+"189","2017-04","2 Bed",4.87091462033435
+"190","2017-05","2 Bed",4.9232424095138
+"191","2017-06","2 Bed",4.89837888971607
+"192","2017-07","2 Bed",4.91014513007012
+"193","2017-08","2 Bed",4.89854172988649
+"194","2017-09","2 Bed",4.88822983510933
+"195","2017-10","2 Bed",4.8824142856106
+"196","2017-11","2 Bed",4.86413623266433
+"197","2017-12","2 Bed",4.854875775174
+"198","2018-01","2 Bed",4.91991618106422
+"199","2018-02","2 Bed",4.90817473930237
+"200","2018-03","2 Bed",4.87097675398315
+"201","2018-04","2 Bed",4.89310119588479
+"202","2018-05","2 Bed",4.94557276135869
+"203","2018-06","2 Bed",4.95917324975454
+"204","2018-07","2 Bed",4.91718002276065
+"205","2010-03","3 Bed",NA
+"206","2010-04","3 Bed",NA
+"207","2010-05","3 Bed",NA
+"208","2010-06","3 Bed",NA
+"209","2010-07","3 Bed",NA
+"210","2010-08","3 Bed",NA
+"211","2010-09","3 Bed",NA
+"212","2010-10","3 Bed",NA
+"213","2010-11","3 Bed",NA
+"214","2010-12","3 Bed",NA
+"215","2011-01","3 Bed",NA
+"216","2011-02","3 Bed",NA
+"217","2011-03","3 Bed",NA
+"218","2011-04","3 Bed",NA
+"219","2011-05","3 Bed",NA
+"220","2011-06","3 Bed",NA
+"221","2011-07","3 Bed",NA
+"222","2011-08","3 Bed",NA
+"223","2011-09","3 Bed",NA
+"224","2011-10","3 Bed",NA
+"225","2011-11","3 Bed",NA
+"226","2011-12","3 Bed",NA
+"227","2012-01","3 Bed",NA
+"228","2012-02","3 Bed",NA
+"229","2012-03","3 Bed",NA
+"230","2012-04","3 Bed",NA
+"231","2012-05","3 Bed",NA
+"232","2012-06","3 Bed",NA
+"233","2012-07","3 Bed",NA
+"234","2012-08","3 Bed",NA
+"235","2012-09","3 Bed",NA
+"236","2012-10","3 Bed",NA
+"237","2012-11","3 Bed",NA
+"238","2012-12","3 Bed",NA
+"239","2013-01","3 Bed",NA
+"240","2013-02","3 Bed",NA
+"241","2013-03","3 Bed",NA
+"242","2013-04","3 Bed",NA
+"243","2013-05","3 Bed",NA
+"244","2013-06","3 Bed",NA
+"245","2013-07","3 Bed",NA
+"246","2013-08","3 Bed",NA
+"247","2013-09","3 Bed",NA
+"248","2013-10","3 Bed",NA
+"249","2013-11","3 Bed",NA
+"250","2013-12","3 Bed",NA
+"251","2014-01","3 Bed",NA
+"252","2014-02","3 Bed",NA
+"253","2014-03","3 Bed",NA
+"254","2014-04","3 Bed",NA
+"255","2014-05","3 Bed",NA
+"256","2014-06","3 Bed",NA
+"257","2014-07","3 Bed",NA
+"258","2014-08","3 Bed",NA
+"259","2014-09","3 Bed",NA
+"260","2014-10","3 Bed",NA
+"261","2014-11","3 Bed",NA
+"262","2014-12","3 Bed",NA
+"263","2015-01","3 Bed",NA
+"264","2015-02","3 Bed",NA
+"265","2015-03","3 Bed",NA
+"266","2015-04","3 Bed",NA
+"267","2015-05","3 Bed",NA
+"268","2015-06","3 Bed",NA
+"269","2015-07","3 Bed",NA
+"270","2015-08","3 Bed",NA
+"271","2015-09","3 Bed",NA
+"272","2015-10","3 Bed",NA
+"273","2015-11","3 Bed",NA
+"274","2015-12","3 Bed",NA
+"275","2016-01","3 Bed",NA
+"276","2016-02","3 Bed",NA
+"277","2016-03","3 Bed",NA
+"278","2016-04","3 Bed",NA
+"279","2016-05","3 Bed",NA
+"280","2016-06","3 Bed",NA
+"281","2016-07","3 Bed",NA
+"282","2016-08","3 Bed",NA
+"283","2016-09","3 Bed",NA
+"284","2016-10","3 Bed",NA
+"285","2016-11","3 Bed",NA
+"286","2016-12","3 Bed",NA
+"287","2017-01","3 Bed",NA
+"288","2017-02","3 Bed",5.78478419524315
+"289","2017-03","3 Bed",5.78034905742071
+"290","2017-04","3 Bed",5.54269936205812
+"291","2017-05","3 Bed",5.57505541810561
+"292","2017-06","3 Bed",5.62729730181744
+"293","2017-07","3 Bed",5.66553693753142
+"294","2017-08","3 Bed",5.57289842224435
+"295","2017-09","3 Bed",5.49492066096691
+"296","2017-10","3 Bed",5.48569611988558
+"297","2017-11","3 Bed",5.30992369138843
+"298","2017-12","3 Bed",5.2963584948287
+"299","2018-01","3 Bed",5.08377686843829
+"300","2018-02","3 Bed",5.16939060065888
+"301","2018-03","3 Bed",5.41216140060602
+"302","2018-04","3 Bed",5.3445006127451
+"303","2018-05","3 Bed",5.42284631745036
+"304","2018-06","3 Bed",5.47810906077969
+"305","2018-07","3 Bed",5.4468202933922
+"306","2010-02","Condo/Co-op",NA
+"307","2010-03","Condo/Co-op",NA
+"308","2010-04","Condo/Co-op",NA
+"309","2010-05","Condo/Co-op",NA
+"310","2010-06","Condo/Co-op",NA
+"311","2010-07","Condo/Co-op",NA
+"312","2010-08","Condo/Co-op",NA
+"313","2010-09","Condo/Co-op",NA
+"314","2010-10","Condo/Co-op",NA
+"315","2010-11","Condo/Co-op",NA
+"316","2010-12","Condo/Co-op",NA
+"317","2011-01","Condo/Co-op",NA
+"318","2011-02","Condo/Co-op",NA
+"319","2011-03","Condo/Co-op",NA
+"320","2011-04","Condo/Co-op",NA
+"321","2011-05","Condo/Co-op",NA
+"322","2011-06","Condo/Co-op",NA
+"323","2011-07","Condo/Co-op",NA
+"324","2011-08","Condo/Co-op",NA
+"325","2011-09","Condo/Co-op",NA
+"326","2011-10","Condo/Co-op",NA
+"327","2011-11","Condo/Co-op",NA
+"328","2011-12","Condo/Co-op",NA
+"329","2012-01","Condo/Co-op",NA
+"330","2012-02","Condo/Co-op",NA
+"331","2012-03","Condo/Co-op",NA
+"332","2012-04","Condo/Co-op",NA
+"333","2012-05","Condo/Co-op",NA
+"334","2012-06","Condo/Co-op",NA
+"335","2012-07","Condo/Co-op",NA
+"336","2012-08","Condo/Co-op",NA
+"337","2012-09","Condo/Co-op",NA
+"338","2012-10","Condo/Co-op",NA
+"339","2012-11","Condo/Co-op",NA
+"340","2012-12","Condo/Co-op",NA
+"341","2013-01","Condo/Co-op",NA
+"342","2013-02","Condo/Co-op",NA
+"343","2013-03","Condo/Co-op",NA
+"344","2013-04","Condo/Co-op",NA
+"345","2013-05","Condo/Co-op",NA
+"346","2013-06","Condo/Co-op",NA
+"347","2013-07","Condo/Co-op",NA
+"348","2013-08","Condo/Co-op",NA
+"349","2013-09","Condo/Co-op",NA
+"350","2013-10","Condo/Co-op",NA
+"351","2013-11","Condo/Co-op",NA
+"352","2013-12","Condo/Co-op",NA
+"353","2014-01","Condo/Co-op",NA
+"354","2014-02","Condo/Co-op",NA
+"355","2014-03","Condo/Co-op",NA
+"356","2014-04","Condo/Co-op",NA
+"357","2014-05","Condo/Co-op",NA
+"358","2014-06","Condo/Co-op",NA
+"359","2014-07","Condo/Co-op",NA
+"360","2014-08","Condo/Co-op",NA
+"361","2014-09","Condo/Co-op",NA
+"362","2014-10","Condo/Co-op",NA
+"363","2014-11","Condo/Co-op",NA
+"364","2014-12","Condo/Co-op",NA
+"365","2015-01","Condo/Co-op",NA
+"366","2015-02","Condo/Co-op",NA
+"367","2015-03","Condo/Co-op",NA
+"368","2015-04","Condo/Co-op",NA
+"369","2015-05","Condo/Co-op",NA
+"370","2015-06","Condo/Co-op",NA
+"371","2015-07","Condo/Co-op",NA
+"372","2015-08","Condo/Co-op",NA
+"373","2015-09","Condo/Co-op",NA
+"374","2015-10","Condo/Co-op",NA
+"375","2015-11","Condo/Co-op",NA
+"376","2015-12","Condo/Co-op",NA
+"377","2016-01","Condo/Co-op",NA
+"378","2016-02","Condo/Co-op",NA
+"379","2016-03","Condo/Co-op",NA
+"380","2016-04","Condo/Co-op",NA
+"381","2016-05","Condo/Co-op",NA
+"382","2016-06","Condo/Co-op",NA
+"383","2016-07","Condo/Co-op",NA
+"384","2016-08","Condo/Co-op",NA
+"385","2016-09","Condo/Co-op",NA
+"386","2016-10","Condo/Co-op",NA
+"387","2016-11","Condo/Co-op",NA
+"388","2016-12","Condo/Co-op",NA
+"389","2017-01","Condo/Co-op",NA
+"390","2017-02","Condo/Co-op",5.45144315088063
+"391","2017-03","Condo/Co-op",5.45570245680943
+"392","2017-04","Condo/Co-op",5.47324162154859
+"393","2017-05","Condo/Co-op",5.51495746943544
+"394","2017-06","Condo/Co-op",5.51347347325021
+"395","2017-07","Condo/Co-op",5.50847589915474
+"396","2017-08","Condo/Co-op",5.49052945263687
+"397","2017-09","Condo/Co-op",5.44948677575867
+"398","2017-10","Condo/Co-op",5.3973481330939
+"399","2017-11","Condo/Co-op",5.3564547904349
+"400","2017-12","Condo/Co-op",5.33908102112719
+"401","2018-01","Condo/Co-op",5.35098253023579
+"402","2018-02","Condo/Co-op",5.12832883034043
+"403","2018-03","Condo/Co-op",5.09701018349001
+"404","2018-04","Condo/Co-op",5.23076416920781
+"405","2018-05","Condo/Co-op",5.23612256818353
+"406","2018-06","Condo/Co-op",5.22347274769513
+"407","2018-07","Condo/Co-op",5.2437077938498
+"408","2011-02","Duplex/Triplex",NA
+"409","2011-03","Duplex/Triplex",NA
+"410","2011-04","Duplex/Triplex",NA
+"411","2011-05","Duplex/Triplex",NA
+"412","2011-06","Duplex/Triplex",NA
+"413","2011-07","Duplex/Triplex",NA
+"414","2011-08","Duplex/Triplex",NA
+"415","2011-09","Duplex/Triplex",NA
+"416","2011-10","Duplex/Triplex",NA
+"417","2011-11","Duplex/Triplex",NA
+"418","2011-12","Duplex/Triplex",NA
+"419","2012-01","Duplex/Triplex",NA
+"420","2012-02","Duplex/Triplex",NA
+"421","2012-03","Duplex/Triplex",NA
+"422","2012-04","Duplex/Triplex",NA
+"423","2012-05","Duplex/Triplex",NA
+"424","2012-06","Duplex/Triplex",NA
+"425","2012-07","Duplex/Triplex",NA
+"426","2012-08","Duplex/Triplex",NA
+"427","2012-09","Duplex/Triplex",NA
+"428","2012-10","Duplex/Triplex",NA
+"429","2012-11","Duplex/Triplex",NA
+"430","2012-12","Duplex/Triplex",NA
+"431","2013-01","Duplex/Triplex",NA
+"432","2013-02","Duplex/Triplex",NA
+"433","2013-03","Duplex/Triplex",NA
+"434","2013-04","Duplex/Triplex",NA
+"435","2013-05","Duplex/Triplex",NA
+"436","2013-06","Duplex/Triplex",NA
+"437","2013-07","Duplex/Triplex",NA
+"438","2013-08","Duplex/Triplex",NA
+"439","2013-09","Duplex/Triplex",NA
+"440","2013-10","Duplex/Triplex",NA
+"441","2013-11","Duplex/Triplex",NA
+"442","2013-12","Duplex/Triplex",NA
+"443","2014-01","Duplex/Triplex",NA
+"444","2014-02","Duplex/Triplex",NA
+"445","2014-03","Duplex/Triplex",NA
+"446","2014-04","Duplex/Triplex",NA
+"447","2014-05","Duplex/Triplex",NA
+"448","2014-06","Duplex/Triplex",NA
+"449","2014-07","Duplex/Triplex",NA
+"450","2014-08","Duplex/Triplex",NA
+"451","2014-09","Duplex/Triplex",NA
+"452","2014-10","Duplex/Triplex",NA
+"453","2014-11","Duplex/Triplex",NA
+"454","2014-12","Duplex/Triplex",NA
+"455","2015-01","Duplex/Triplex",NA
+"456","2015-02","Duplex/Triplex",NA
+"457","2015-03","Duplex/Triplex",NA
+"458","2015-04","Duplex/Triplex",NA
+"459","2015-05","Duplex/Triplex",NA
+"460","2015-06","Duplex/Triplex",NA
+"461","2015-07","Duplex/Triplex",NA
+"462","2015-08","Duplex/Triplex",NA
+"463","2015-09","Duplex/Triplex",NA
+"464","2015-10","Duplex/Triplex",NA
+"465","2015-11","Duplex/Triplex",NA
+"466","2015-12","Duplex/Triplex",NA
+"467","2016-01","Duplex/Triplex",NA
+"468","2016-02","Duplex/Triplex",NA
+"469","2016-03","Duplex/Triplex",NA
+"470","2016-04","Duplex/Triplex",NA
+"471","2016-05","Duplex/Triplex",NA
+"472","2016-06","Duplex/Triplex",NA
+"473","2016-07","Duplex/Triplex",NA
+"474","2016-08","Duplex/Triplex",NA
+"475","2016-09","Duplex/Triplex",NA
+"476","2016-10","Duplex/Triplex",NA
+"477","2016-11","Duplex/Triplex",NA
+"478","2016-12","Duplex/Triplex",NA
+"479","2017-01","Duplex/Triplex",NA
+"480","2017-02","Duplex/Triplex",NA
+"481","2017-03","Duplex/Triplex",NA
+"482","2017-04","Duplex/Triplex",4.90332687607615
+"483","2017-05","Duplex/Triplex",4.91028969176381
+"484","2017-06","Duplex/Triplex",4.91793861761201
+"485","2017-07","Duplex/Triplex",4.92011510803238
+"486","2017-08","Duplex/Triplex",4.85049023502532
+"487","2017-09","Duplex/Triplex",4.8701422855919
+"488","2017-10","Duplex/Triplex",4.80274622701295
+"489","2017-11","Duplex/Triplex",4.80567412922039
+"490","2017-12","Duplex/Triplex",4.79261936509572
+"491","2018-01","Duplex/Triplex",4.80007757345176
+"492","2018-02","Duplex/Triplex",4.81355922908693
+"493","2018-03","Duplex/Triplex",4.83185690107808
+"494","2018-04","Duplex/Triplex",4.87159446283249
+"495","2018-05","Duplex/Triplex",4.91932070491085
+"496","2018-06","Duplex/Triplex",4.89503759883938
+"497","2018-07","Duplex/Triplex",4.97003635989254
+"498","2010-02","Multi-Family Residence",NA
+"499","2010-03","Multi-Family Residence",NA
+"500","2010-04","Multi-Family Residence",NA
+"501","2010-05","Multi-Family Residence",NA
+"502","2010-06","Multi-Family Residence",NA
+"503","2010-07","Multi-Family Residence",NA
+"504","2010-08","Multi-Family Residence",NA
+"505","2010-09","Multi-Family Residence",NA
+"506","2010-10","Multi-Family Residence",NA
+"507","2010-11","Multi-Family Residence",NA
+"508","2010-12","Multi-Family Residence",NA
+"509","2011-01","Multi-Family Residence",NA
+"510","2011-02","Multi-Family Residence",NA
+"511","2011-03","Multi-Family Residence",NA
+"512","2011-04","Multi-Family Residence",NA
+"513","2011-05","Multi-Family Residence",NA
+"514","2011-06","Multi-Family Residence",NA
+"515","2011-07","Multi-Family Residence",NA
+"516","2011-08","Multi-Family Residence",NA
+"517","2011-09","Multi-Family Residence",NA
+"518","2011-10","Multi-Family Residence",NA
+"519","2011-11","Multi-Family Residence",NA
+"520","2011-12","Multi-Family Residence",NA
+"521","2012-01","Multi-Family Residence",NA
+"522","2012-02","Multi-Family Residence",NA
+"523","2012-03","Multi-Family Residence",NA
+"524","2012-04","Multi-Family Residence",NA
+"525","2012-05","Multi-Family Residence",NA
+"526","2012-06","Multi-Family Residence",NA
+"527","2012-07","Multi-Family Residence",NA
+"528","2012-08","Multi-Family Residence",NA
+"529","2012-09","Multi-Family Residence",NA
+"530","2012-10","Multi-Family Residence",NA
+"531","2012-11","Multi-Family Residence",NA
+"532","2012-12","Multi-Family Residence",NA
+"533","2013-01","Multi-Family Residence",NA
+"534","2013-02","Multi-Family Residence",NA
+"535","2013-03","Multi-Family Residence",NA
+"536","2013-04","Multi-Family Residence",NA
+"537","2013-05","Multi-Family Residence",NA
+"538","2013-06","Multi-Family Residence",NA
+"539","2013-07","Multi-Family Residence",NA
+"540","2013-08","Multi-Family Residence",NA
+"541","2013-09","Multi-Family Residence",NA
+"542","2013-10","Multi-Family Residence",NA
+"543","2013-11","Multi-Family Residence",NA
+"544","2013-12","Multi-Family Residence",NA
+"545","2014-01","Multi-Family Residence",NA
+"546","2014-02","Multi-Family Residence",NA
+"547","2014-03","Multi-Family Residence",NA
+"548","2014-04","Multi-Family Residence",NA
+"549","2014-05","Multi-Family Residence",NA
+"550","2014-06","Multi-Family Residence",NA
+"551","2014-07","Multi-Family Residence",NA
+"552","2014-08","Multi-Family Residence",NA
+"553","2014-09","Multi-Family Residence",NA
+"554","2014-10","Multi-Family Residence",NA
+"555","2014-11","Multi-Family Residence",NA
+"556","2014-12","Multi-Family Residence",NA
+"557","2015-01","Multi-Family Residence",NA
+"558","2015-02","Multi-Family Residence",NA
+"559","2015-03","Multi-Family Residence",NA
+"560","2015-04","Multi-Family Residence",NA
+"561","2015-05","Multi-Family Residence",NA
+"562","2015-06","Multi-Family Residence",NA
+"563","2015-07","Multi-Family Residence",NA
+"564","2015-08","Multi-Family Residence",NA
+"565","2015-09","Multi-Family Residence",NA
+"566","2015-10","Multi-Family Residence",NA
+"567","2015-11","Multi-Family Residence",NA
+"568","2015-12","Multi-Family Residence",NA
+"569","2016-01","Multi-Family Residence",NA
+"570","2016-02","Multi-Family Residence",NA
+"571","2016-03","Multi-Family Residence",NA
+"572","2016-04","Multi-Family Residence",NA
+"573","2016-05","Multi-Family Residence",NA
+"574","2016-06","Multi-Family Residence",NA
+"575","2016-07","Multi-Family Residence",NA
+"576","2016-08","Multi-Family Residence",NA
+"577","2016-09","Multi-Family Residence",NA
+"578","2016-10","Multi-Family Residence",NA
+"579","2016-11","Multi-Family Residence",NA
+"580","2016-12","Multi-Family Residence",NA
+"581","2017-01","Multi-Family Residence",NA
+"582","2017-02","Multi-Family Residence",4.90364498240462
+"583","2017-03","Multi-Family Residence",4.95125710265478
+"584","2017-04","Multi-Family Residence",4.95655448880451
+"585","2017-05","Multi-Family Residence",4.99775608702393
+"586","2017-06","Multi-Family Residence",5.00260164958402
+"587","2017-07","Multi-Family Residence",5.01475188745848
+"588","2017-08","Multi-Family Residence",4.97362794760917
+"589","2017-09","Multi-Family Residence",4.94720067831211
+"590","2017-10","Multi-Family Residence",4.90714937364007
+"591","2017-11","Multi-Family Residence",4.87351965029352
+"592","2017-12","Multi-Family Residence",4.87732522355483
+"593","2018-01","Multi-Family Residence",4.8778705241061
+"594","2018-02","Multi-Family Residence",4.85446232642573
+"595","2018-03","Multi-Family Residence",4.86524197805964
+"596","2018-04","Multi-Family Residence",4.94281965806756
+"597","2018-05","Multi-Family Residence",4.97804415182197
+"598","2018-06","Multi-Family Residence",4.95812514478173
+"599","2018-07","Multi-Family Residence",4.97297624940701
+"600","2010-02","Single-Family Residence",NA
+"601","2010-03","Single-Family Residence",NA
+"602","2010-04","Single-Family Residence",NA
+"603","2010-05","Single-Family Residence",NA
+"604","2010-06","Single-Family Residence",NA
+"605","2010-07","Single-Family Residence",NA
+"606","2010-08","Single-Family Residence",NA
+"607","2010-09","Single-Family Residence",NA
+"608","2010-10","Single-Family Residence",NA
+"609","2010-11","Single-Family Residence",NA
+"610","2010-12","Single-Family Residence",NA
+"611","2011-01","Single-Family Residence",NA
+"612","2011-02","Single-Family Residence",NA
+"613","2011-03","Single-Family Residence",NA
+"614","2011-04","Single-Family Residence",NA
+"615","2011-05","Single-Family Residence",NA
+"616","2011-06","Single-Family Residence",NA
+"617","2011-07","Single-Family Residence",NA
+"618","2011-08","Single-Family Residence",NA
+"619","2011-09","Single-Family Residence",NA
+"620","2011-10","Single-Family Residence",NA
+"621","2011-11","Single-Family Residence",NA
+"622","2011-12","Single-Family Residence",NA
+"623","2012-01","Single-Family Residence",NA
+"624","2012-02","Single-Family Residence",NA
+"625","2012-03","Single-Family Residence",NA
+"626","2012-04","Single-Family Residence",NA
+"627","2012-05","Single-Family Residence",NA
+"628","2012-06","Single-Family Residence",NA
+"629","2012-07","Single-Family Residence",NA
+"630","2012-08","Single-Family Residence",NA
+"631","2012-09","Single-Family Residence",NA
+"632","2012-10","Single-Family Residence",NA
+"633","2012-11","Single-Family Residence",NA
+"634","2012-12","Single-Family Residence",NA
+"635","2013-01","Single-Family Residence",NA
+"636","2013-02","Single-Family Residence",NA
+"637","2013-03","Single-Family Residence",NA
+"638","2013-04","Single-Family Residence",NA
+"639","2013-05","Single-Family Residence",NA
+"640","2013-06","Single-Family Residence",NA
+"641","2013-07","Single-Family Residence",NA
+"642","2013-08","Single-Family Residence",5.23728873128107
+"643","2013-09","Single-Family Residence",5.27058682384669
+"644","2013-10","Single-Family Residence",5.23461852121038
+"645","2013-11","Single-Family Residence",5.0742570684953
+"646","2013-12","Single-Family Residence",5.25609235073774
+"647","2014-01","Single-Family Residence",5.21179223982863
+"648","2014-02","Single-Family Residence",5.12427284360713
+"649","2014-03","Single-Family Residence",5.11137035449183
+"650","2014-04","Single-Family Residence",5.0076729703435
+"651","2014-05","Single-Family Residence",5.13129393389602
+"652","2014-06","Single-Family Residence",5.17402079118125
+"653","2014-07","Single-Family Residence",5.32759233122185
+"654","2014-08","Single-Family Residence",5.34776335010939
+"655","2014-09","Single-Family Residence",5.32698181250876
+"656","2014-10","Single-Family Residence",5.28776206380487
+"657","2014-11","Single-Family Residence",5.32263769566464
+"658","2014-12","Single-Family Residence",5.34350478205465
+"659","2015-01","Single-Family Residence",5.30606540444345
+"660","2015-02","Single-Family Residence",5.37130834497879
+"661","2015-03","Single-Family Residence",5.34788880193197
+"662","2015-04","Single-Family Residence",5.37179341895052
+"663","2015-05","Single-Family Residence",5.33772585638838
+"664","2015-06","Single-Family Residence",5.2695108956357
+"665","2015-07","Single-Family Residence",5.28769933789358
+"666","2015-08","Single-Family Residence",5.29308352375608
+"667","2015-09","Single-Family Residence",5.32686357001226
+"668","2015-10","Single-Family Residence",5.31126393980987
+"669","2015-11","Single-Family Residence",5.33311067303948
+"670","2015-12","Single-Family Residence",5.32747307045646
+"671","2016-01","Single-Family Residence",5.34516408242617
+"672","2016-02","Single-Family Residence",5.38214094450277
+"673","2016-03","Single-Family Residence",5.3794162320782
+"674","2016-04","Single-Family Residence",5.38761773356028
+"675","2016-05","Single-Family Residence",5.39234122229895
+"676","2016-06","Single-Family Residence",5.37777158608044
+"677","2016-07","Single-Family Residence",5.38378135395963
+"678","2016-08","Single-Family Residence",5.377865912741
+"679","2016-09","Single-Family Residence",5.37744180734378
+"680","2016-10","Single-Family Residence",5.38288581777676
+"681","2016-11","Single-Family Residence",5.38337088466727
+"682","2016-12","Single-Family Residence",5.3869093568424
+"683","2017-01","Single-Family Residence",5.37254192555199
+"684","2017-02","Single-Family Residence",5.37415497080049
+"685","2017-03","Single-Family Residence",5.32902117381466
+"686","2017-04","Single-Family Residence",5.33522001973748
+"687","2017-05","Single-Family Residence",5.29603589575402
+"688","2017-06","Single-Family Residence",5.35945396883963
+"689","2017-07","Single-Family Residence",5.37694240913634
+"690","2017-08","Single-Family Residence",5.35735169590197
+"691","2017-09","Single-Family Residence",5.37238761133644
+"692","2017-10","Single-Family Residence",5.333885916765
+"693","2017-11","Single-Family Residence",5.36720796350652
+"694","2017-12","Single-Family Residence",5.3478097496935
+"695","2018-01","Single-Family Residence",5.32165163991751
+"696","2018-02","Single-Family Residence",5.30401587183013
+"697","2018-03","Single-Family Residence",5.30213101259934
+"698","2018-04","Single-Family Residence",5.36054511491833
+"699","2018-05","Single-Family Residence",5.33661564392885
+"700","2018-06","Single-Family Residence",5.32632825820593
+"701","2018-07","Single-Family Residence",5.35683183886256
+"702","2010-02","Studio",NA
+"703","2010-03","Studio",NA
+"704","2010-04","Studio",NA
+"705","2010-05","Studio",NA
+"706","2010-06","Studio",NA
+"707","2010-07","Studio",NA
+"708","2010-08","Studio",NA
+"709","2010-09","Studio",NA
+"710","2010-10","Studio",NA
+"711","2010-11","Studio",NA
+"712","2010-12","Studio",NA
+"713","2011-01","Studio",NA
+"714","2011-02","Studio",NA
+"715","2011-03","Studio",NA
+"716","2011-04","Studio",NA
+"717","2011-05","Studio",NA
+"718","2011-06","Studio",NA
+"719","2011-07","Studio",NA
+"720","2011-08","Studio",NA
+"721","2011-09","Studio",NA
+"722","2011-10","Studio",NA
+"723","2011-11","Studio",NA
+"724","2011-12","Studio",NA
+"725","2012-01","Studio",NA
+"726","2012-02","Studio",NA
+"727","2012-03","Studio",NA
+"728","2012-04","Studio",NA
+"729","2012-05","Studio",NA
+"730","2012-06","Studio",NA
+"731","2012-07","Studio",NA
+"732","2012-08","Studio",NA
+"733","2012-09","Studio",NA
+"734","2012-10","Studio",NA
+"735","2012-11","Studio",NA
+"736","2012-12","Studio",NA
+"737","2013-01","Studio",NA
+"738","2013-02","Studio",NA
+"739","2013-03","Studio",NA
+"740","2013-04","Studio",NA
+"741","2013-05","Studio",NA
+"742","2013-06","Studio",NA
+"743","2013-07","Studio",NA
+"744","2013-08","Studio",NA
+"745","2013-09","Studio",NA
+"746","2013-10","Studio",NA
+"747","2013-11","Studio",NA
+"748","2013-12","Studio",NA
+"749","2014-01","Studio",NA
+"750","2014-02","Studio",NA
+"751","2014-03","Studio",NA
+"752","2014-04","Studio",NA
+"753","2014-05","Studio",NA
+"754","2014-06","Studio",NA
+"755","2014-07","Studio",NA
+"756","2014-08","Studio",NA
+"757","2014-09","Studio",NA
+"758","2014-10","Studio",NA
+"759","2014-11","Studio",NA
+"760","2014-12","Studio",NA
+"761","2015-01","Studio",NA
+"762","2015-02","Studio",NA
+"763","2015-03","Studio",NA
+"764","2015-04","Studio",NA
+"765","2015-05","Studio",NA
+"766","2015-06","Studio",NA
+"767","2015-07","Studio",NA
+"768","2015-08","Studio",NA
+"769","2015-09","Studio",NA
+"770","2015-10","Studio",NA
+"771","2015-11","Studio",NA
+"772","2015-12","Studio",NA
+"773","2016-01","Studio",NA
+"774","2016-02","Studio",NA
+"775","2016-03","Studio",NA
+"776","2016-04","Studio",NA
+"777","2016-05","Studio",NA
+"778","2016-06","Studio",NA
+"779","2016-07","Studio",NA
+"780","2016-08","Studio",NA
+"781","2016-09","Studio",NA
+"782","2016-10","Studio",NA
+"783","2016-11","Studio",NA
+"784","2016-12","Studio",NA
+"785","2017-01","Studio",NA
+"786","2017-02","Studio",5.54300086553737
+"787","2017-03","Studio",5.55382721567415
+"788","2017-04","Studio",5.5735882014029
+"789","2017-05","Studio",5.59824825304338
+"790","2017-06","Studio",5.61172421841092
+"791","2017-07","Studio",5.62576585234335
+"792","2017-08","Studio",5.58158172268412
+"793","2017-09","Studio",5.56821252653373
+"794","2017-10","Studio",5.53508457235242
+"795","2017-11","Studio",5.47139076070384
+"796","2017-12","Studio",5.49350368500935
+"797","2018-01","Studio",5.449453094688
+"798","2018-02","Studio",5.31886189360823
+"799","2018-03","Studio",5.28929414570774
+"800","2018-04","Studio",5.42205856927993
+"801","2018-05","Studio",5.46300875206807
+"802","2018-06","Studio",5.46708549694124
+"803","2018-07","Studio",5.47961346123357
+"804","2010-02","Overall",NA
+"805","2010-03","Overall",NA
+"806","2010-04","Overall",NA
+"807","2010-05","Overall",NA
+"808","2010-06","Overall",NA
+"809","2010-07","Overall",NA
+"810","2010-08","Overall",NA
+"811","2010-09","Overall",NA
+"812","2010-10","Overall",NA
+"813","2010-11","Overall",NA
+"814","2010-12","Overall",NA
+"815","2011-01","Overall",NA
+"816","2011-02","Overall",NA
+"817","2011-03","Overall",NA
+"818","2011-04","Overall",NA
+"819","2011-05","Overall",NA
+"820","2011-06","Overall",NA
+"821","2011-07","Overall",NA
+"822","2011-08","Overall",NA
+"823","2011-09","Overall",NA
+"824","2011-10","Overall",NA
+"825","2011-11","Overall",NA
+"826","2011-12","Overall",NA
+"827","2012-01","Overall",NA
+"828","2012-02","Overall",NA
+"829","2012-03","Overall",NA
+"830","2012-04","Overall",NA
+"831","2012-05","Overall",NA
+"832","2012-06","Overall",NA
+"833","2012-07","Overall",NA
+"834","2012-08","Overall",NA
+"835","2012-09","Overall",NA
+"836","2012-10","Overall",NA
+"837","2012-11","Overall",NA
+"838","2012-12","Overall",NA
+"839","2013-01","Overall",NA
+"840","2013-02","Overall",NA
+"841","2013-03","Overall",NA
+"842","2013-04","Overall",NA
+"843","2013-05","Overall",NA
+"844","2013-06","Overall",NA
+"845","2013-07","Overall",NA
+"846","2013-08","Overall",NA
+"847","2013-09","Overall",NA
+"848","2013-10","Overall",NA
+"849","2013-11","Overall",NA
+"850","2013-12","Overall",NA
+"851","2014-01","Overall",NA
+"852","2014-02","Overall",NA
+"853","2014-03","Overall",NA
+"854","2014-04","Overall",NA
+"855","2014-05","Overall",NA
+"856","2014-06","Overall",NA
+"857","2014-07","Overall",NA
+"858","2014-08","Overall",NA
+"859","2014-09","Overall",NA
+"860","2014-10","Overall",NA
+"861","2014-11","Overall",NA
+"862","2014-12","Overall",NA
+"863","2015-01","Overall",NA
+"864","2015-02","Overall",NA
+"865","2015-03","Overall",NA
+"866","2015-04","Overall",NA
+"867","2015-05","Overall",NA
+"868","2015-06","Overall",NA
+"869","2015-07","Overall",NA
+"870","2015-08","Overall",NA
+"871","2015-09","Overall",NA
+"872","2015-10","Overall",NA
+"873","2015-11","Overall",NA
+"874","2015-12","Overall",NA
+"875","2016-01","Overall",NA
+"876","2016-02","Overall",NA
+"877","2016-03","Overall",NA
+"878","2016-04","Overall",NA
+"879","2016-05","Overall",NA
+"880","2016-06","Overall",NA
+"881","2016-07","Overall",NA
+"882","2016-08","Overall",NA
+"883","2016-09","Overall",NA
+"884","2016-10","Overall",NA
+"885","2016-11","Overall",NA
+"886","2016-12","Overall",NA
+"887","2017-01","Overall",NA
+"888","2017-02","Overall",5.40409738707602
+"889","2017-03","Overall",5.4229597868266
+"890","2017-04","Overall",5.44036750654305
+"891","2017-05","Overall",5.48278570671682
+"892","2017-06","Overall",5.47952144074864
+"893","2017-07","Overall",5.47622385778728
+"894","2017-08","Overall",5.42445536559851
+"895","2017-09","Overall",5.372963236633
+"896","2017-10","Overall",5.35915752925286
+"897","2017-11","Overall",5.34427167878905
+"898","2017-12","Overall",5.33221011748284
+"899","2018-01","Overall",5.31758511820079
+"900","2018-02","Overall",5.1401529572756
+"901","2018-03","Overall",5.11063885525279
+"902","2018-04","Overall",5.20290986608654
+"903","2018-05","Overall",5.23381750119577
+"904","2018-06","Overall",5.24918943631705
+"905","2018-07","Overall",5.25460089302482
